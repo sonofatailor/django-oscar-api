@@ -14,6 +14,7 @@ setup(name='django-oscar-api',
       include_package_data=True,
       install_requires=[
           'django-oscar>=0.4',
+          'django-tastypie>=0.9.12,<0.10'
       ],
       # See http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
