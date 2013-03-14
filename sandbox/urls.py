@@ -10,6 +10,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
+    (r'^api/', include('oscar_api.urls')),
     (r'', include(shop.urls)),
 )
 
