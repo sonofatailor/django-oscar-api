@@ -23,3 +23,9 @@ class ProductResource(ModelResource):
         else:
             bundle.data['image_url'] = product.primary_image().original.url
         return bundle
+
+
+class CategoryResource(ModelResource):
+    class Meta:
+        queryset = models.Category.objects.all()
+        resource_name = 'categories'
