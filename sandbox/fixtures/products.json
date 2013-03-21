@@ -1,0 +1,2841 @@
+[
+    {
+        "pk": 1, 
+        "model": "catalogue.productclass", 
+        "fields": {
+            "track_stock": true, 
+            "options": [], 
+            "requires_shipping": true, 
+            "name": "Book", 
+            "slug": "book"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "catalogue.category", 
+        "fields": {
+            "description": null, 
+            "numchild": 1, 
+            "slug": "books", 
+            "depth": 1, 
+            "full_name": "Books", 
+            "path": "0001", 
+            "image": "", 
+            "name": "Books"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "catalogue.category", 
+        "fields": {
+            "description": null, 
+            "numchild": 0, 
+            "slug": "books/fiction", 
+            "depth": 2, 
+            "full_name": "Books > Fiction", 
+            "path": "00010001", 
+            "image": "", 
+            "name": "Fiction"
+        }
+    }, 
+    {
+        "pk": 100, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 100, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 99, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 99, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 98, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 98, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 97, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 97, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 96, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 95, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 94, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 93, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 92, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 91, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 90, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 89, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 88, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 87, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 86, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 85, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 85, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 84, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 84, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 83, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 82, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 82, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 81, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 81, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 80, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 79, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 78, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 78, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 77, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 76, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 76, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 75, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 74, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 73, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 72, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 71, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 70, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 69, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 68, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 67, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 66, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 65, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 64, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 63, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 62, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 61, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 60, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 59, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 58, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 57, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 56, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 55, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 54, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 53, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 52, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 51, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 50, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 49, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 48, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 47, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 46, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 45, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 44, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 43, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 42, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 41, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 40, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 39, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 38, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 37, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 36, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 35, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 34, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 33, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 32, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 31, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 30, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 29, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 28, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 27, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 26, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 25, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 24, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 23, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 22, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 21, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 20, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 19, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 18, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 17, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 16, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 15, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 14, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 13, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 12, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 11, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 10, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 9, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 8, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 7, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 6, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 5, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 4, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 3, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 2, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "catalogue.productcategory", 
+        "fields": {
+            "category": 2, 
+            "product": 1, 
+            "is_canonical": false
+        }
+    }, 
+    {
+        "pk": 100, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Brilliantly funny, Louise Rennison's fabby fourth book on the confessions of crazy but lovable Georgia Nicolson. Now in gorgey new paperback and guaranteed to have the nation laughing their knickers off!  Phoned Jas. \"Jas?\" \"Oui.\" \"Do you ever get the urge?\" \"Pardon?\" \"You know, to flow free and wild.\" She was thinking. \"Well, sometimes, when Tom and I are alone in the house together!\" \"Yes...", 
+            "parent": null, 
+            "title": "Dancing In My Nuddy-Pants!", 
+            "date_updated": "2013-03-21T16:54:01.868", 
+            "upc": "9780007218707", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.868", 
+            "product_options": [], 
+            "slug": "dancing-in-my-nuddy-pants", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 99, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Brilliantly funny, Louise Rennison's fabby third book on the confessions of crazy but lovable Georgia Nicolson. Now in gorgey new paperback and guaranteed to have the nation laughing their knickers off!  Jas said, \"Well, what happened?\" And I said, \"Well, it was beyond marvy. We talked and snogged and then he made me a sandwich and we snogged and then he played me a record and then we snogged...", 
+            "parent": null, 
+            "title": "Knocked Out By My Nunga-Nungas", 
+            "date_updated": "2013-03-21T16:54:01.851", 
+            "upc": "9780007218691", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.851", 
+            "product_options": [], 
+            "slug": "knocked-out-by-my-nunga-nungas", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 98, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Brilliantly funny, teenage angst author Louise Rennison's second book about the confessions of crazy but lovable Georgia Nicolson. Now repackaged in a gorgeous new paperback and looking even fabber than ever. Louise is an international bestselling author and her books can't fail to make you laugh out loud.  What is the matter with my life? Why is it so deeply unfab?  / It's a day and a half now", 
+            "parent": null, 
+            "title": "It's Ok, I'm Wearing Really Big Knickers", 
+            "date_updated": "2013-03-21T16:54:01.834", 
+            "upc": "9780007218684", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.834", 
+            "product_options": [], 
+            "slug": "its-ok-im-wearing-really-big-knickers", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 97, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Brilliantly funny, teenage angst author Louise Rennison's first book about the confessions of crazy but lovable Georgia Nicolson. Now repackaged in a gorgeous new paperback and looking even fabber than ever. Louise is an international bestselling author and her books can't fail to make you laugh out loud.  There are six things very wrong with my life:  1. I have one of those under-the-skin...", 
+            "parent": null, 
+            "title": "Angus, Thongs And Full-Frontal Snogging", 
+            "date_updated": "2013-03-21T16:54:01.818", 
+            "upc": "9780007218677", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.818", 
+            "product_options": [], 
+            "slug": "angus-thongs-and-full-frontal-snogging", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The first book in a brand new series, The Last Kingdom is set in England during the reign of King Alfred.  Uhtred is an English boy, born into the aristocracy of ninth-century Northumbria. Orphaned at ten, he is captured and adopted by a Dane and taught the Viking ways. Yet Uhtred's fate is indissolubly bound up with Alfred, King of Wessex, who rules over the only English kingdom to survive the", 
+            "parent": null, 
+            "title": "The Last Kingdom", 
+            "date_updated": "2013-03-21T16:54:01.802", 
+            "upc": "9780007218011", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.802", 
+            "product_options": [], 
+            "slug": "the-last-kingdom", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "This classic story of Sophie and her extraordinary tea-time guest has been loved by millions of children since it was first published over 30 years ago. Now a new generation will enjoy this beautiful reformatted edition!  The doorbell rings just as Sophie and her mummy are sitting down to tea. Who could it possibly be? What they certainly don't expect to see at the door is a big furry, stripy...", 
+            "parent": null, 
+            "title": "The Tiger Who Came To Tea", 
+            "date_updated": "2013-03-21T16:54:01.786", 
+            "upc": "9780007215997", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.786", 
+            "product_options": [], 
+            "slug": "the-tiger-who-came-to-tea", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Can the secrets of one woman's past change another woman's future?  Cate is a gifted young artist who survives in New York by producing remarkable copies of Old Masters.She arrives in London to stay with her aunt Rachel who owns an auction house, determined to leave the pain of her past behind.  Cate is sent to Devon with Rachel's colleague Jack to value the contents of Endsleigh, the grand...", 
+            "parent": null, 
+            "title": "The Debutante", 
+            "date_updated": "2013-03-21T16:54:01.770", 
+            "upc": "9780007215409", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.770", 
+            "product_options": [], 
+            "slug": "the-debutante", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "READ BY GERALDINE MCEWAN. This classic story has been loved by millions of children since it was first published over 30 years ago.  READ BY GERALDINE MCEWAN. The doorbell rings just as Sophie and her mummy are sitting down to tea. Who could it possibly be? What they certainly don't expect to see at the door is a big furry, stripy tiger!  This modern classic picture book is perfect for reading...", 
+            "parent": null, 
+            "title": "The Tiger Who Came To Tea", 
+            "date_updated": "2013-03-21T16:54:01.750", 
+            "upc": "9780007214136", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.750", 
+            "product_options": [], 
+            "slug": "the-tiger-who-came-to-tea", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Gem GI is a clear introduction to what a GI diet is and how it works. It explains the difference between the glycemic index of a food and its glycemic load. The GI food counter rates hundreds of foods using a simple traffic-light system: red for foods to avoid, amber for foods to eat occasionally and green for foods to focus on.  Contains a clear introduction to GI diets and how they work. Cuts", 
+            "parent": null, 
+            "title": "Gi Guide", 
+            "date_updated": "2013-03-21T16:54:01.735", 
+            "upc": "9780007211395", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.735", 
+            "product_options": [], 
+            "slug": "gi-guide", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Su Doku, the wordless crossword in The Times, has taken the puzzle world by storm.This is the first and only official book of the puzzle, certain to satisfy the many fans of this exciting new brainteaser.  Su Doku is the biggest craze to hit The Times since the first crossword was published in 1930. From obscure origins, the wordless puzzle is now the hottest challenge to readers of The Times...", 
+            "parent": null, 
+            "title": "The \"times\" Su Doku", 
+            "date_updated": "2013-03-21T16:54:01.719", 
+            "upc": "9780007207329", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.719", 
+            "product_options": [], 
+            "slug": "the-times-su-doku", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A spellbinding magical adventure. Master storyteller Helen Dunmore writes the story of Sapphire and her brother Conor, and their discovery of INGO, a powerful and exciting world under the sea.  You'll find the mermaid of Zennor inside Zennor church. She fell in love with a human, but she was a Mer creature and so she couldn't come to live with him up in the dry air. She swam up the stream to...", 
+            "parent": null, 
+            "title": "Ingo", 
+            "date_updated": "2013-03-21T16:54:01.704", 
+            "upc": "9780007204885", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.704", 
+            "product_options": [], 
+            "slug": "ingo", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Stylish reissue of a classic first published in the 1970s: Hunter S Thompson's ether-fuelled, savage journey to the heart of the American Dream.  'We were somewhere around Barstow on the edge of the desert when the drugs began to take hold! And suddenly there was a terrible roar all around us and the sky was full of what looked like huge bats, all swooping and screeching and diving around the...", 
+            "parent": null, 
+            "title": "Fear And Loathing In Las Vegas", 
+            "date_updated": "2013-03-21T16:54:01.688", 
+            "upc": "9780007204496", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.688", 
+            "product_options": [], 
+            "slug": "fear-and-loathing-in-las-vegas", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The eagerly awaited 4th novel in the bestselling Conqueror series, continuing the life and adventures of the mighty Khan dynasty.  Genghis Khan is dead, but his legend and his legacy live on. His son Ogedai has built a white city on a great plain and made a capital for the new nation. Now the armies have gathered to see which of Genghis' sons has the strength to be khan. The Mongol empire has...", 
+            "parent": null, 
+            "title": "Empire Of Silver", 
+            "date_updated": "2013-03-21T16:54:01.673", 
+            "upc": "9780007201808", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.673", 
+            "product_options": [], 
+            "slug": "empire-of-silver", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Winner of the Orange Broadband Prize for Fiction 2007, this is a heartbreaking, exquisitely written literary masterpiece.  This highly anticipated novel from Chimamanda Ngozi Adichie is set in Nigeria during the 1960s, at the time of a vicious civil war in which a million people died and thousands were massacred in cold blood. The three main characters in the novel are swept up in the violence...", 
+            "parent": null, 
+            "title": "Half Of A Yellow Sun", 
+            "date_updated": "2013-03-21T16:54:01.658", 
+            "upc": "9780007200283", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.658", 
+            "product_options": [], 
+            "slug": "half-of-a-yellow-sun", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The magical new novel from the number 1 bestselling author of PS, I Love You, Where Rainbows End and If You Could See Me Now.  Ever since the day her classmate Jenny-May Butler vanished, Sandy Shortt has been haunted by what happens when something -- or someone -- disappears. Finding has become her goal.  Jack Ruttle is desperate to find his younger brother Donal who vanished into thin air a...", 
+            "parent": null, 
+            "title": "A Place Called Here", 
+            "date_updated": "2013-03-21T16:54:01.642", 
+            "upc": "9780007198917", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.642", 
+            "product_options": [], 
+            "slug": "a-place-called-here", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 85, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "This short biography of William Shakespeare by world famous writer Bill Bryson brims with the author's inimitable wit and intelligence.  Shakespeare's life, despite the scrutiny of generations of biographers and scholars, is still a thicket of myths and traditions, some preposterous, some conflicting, arranged around the few scant facts known about the Bard -- from his birth in Stratford to the", 
+            "parent": null, 
+            "title": "Shakespeare", 
+            "date_updated": "2013-03-21T16:54:01.627", 
+            "upc": "9780007197903", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.627", 
+            "product_options": [], 
+            "slug": "shakespeare", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 84, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A clear, chronological narrative exploring many of the ethical dilemmas posed for real people during and after the Second World War.  Literature on the Second World War is voluminous. In 'Moral Combat', however, Michael Burleigh achieves what few historians can claim to have done; by exploring the moral sentiment of entire societies and their leaders, and how this changed under the impact of...", 
+            "parent": null, 
+            "title": "Moral Combat", 
+            "date_updated": "2013-03-21T16:54:01.606", 
+            "upc": "9780007195770", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.606", 
+            "product_options": [], 
+            "slug": "moral-combat", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A practical 14 day diet plan with 30 raw energy recipes from leading health coach and seminar leader, Jason Vale -- aka The Juice Master. A motivational read with a practical plan that will inspire you to fuel your body with the right stuff!  Jason Vale is fast becoming the UK's most popular health coach. Here 'the Juice Master' offers his first ever 14 day diet programme. It includes: - no...", 
+            "parent": null, 
+            "title": "The Juice Master", 
+            "date_updated": "2013-03-21T16:54:01.591", 
+            "upc": "9780007194223", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.591", 
+            "product_options": [], 
+            "slug": "the-juice-master", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 82, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "This is a hellish nightmare for only the bravest of readers...Darren Shan's horrifying new series, \"The Demonata\", continues with Demon Thief - now available in a spine-chilling paperback with grisly glow-in-the-dark cover! \"A huge, jagged patch of light forms at the foot of my bed. Then a shape presses through. I'm too horrified to scream. It's a monster from my very worst nightmare - pale red", 
+            "parent": null, 
+            "title": "Demon Thief", 
+            "date_updated": "2013-03-21T16:54:01.575", 
+            "upc": "9780007193233", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.575", 
+            "product_options": [], 
+            "slug": "demon-thief", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 81, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "From the international multi-million selling author DARREN SHAN comes a new character, a new scenario, a new set of horrors now in paperback. LORD LOSS will be devoured by avid Shansters and tingle the spines of many new fans.  \"The door feels red hot, as though a fire is burning behind it. I press an ear to the wood -- but there's no crackle. No smoke. Just deep, heavy breathing! and a curious", 
+            "parent": null, 
+            "title": "Lord Loss", 
+            "date_updated": "2013-03-21T16:54:01.562", 
+            "upc": "9780007193202", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.562", 
+            "product_options": [], 
+            "slug": "lord-loss", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A new Logan McRae thriller from the bestselling author of Cold Granite and Dying Light, set in gritty Aberdeen.  In the pale grey light of a chilly February, Aberdeen is not at its best!  There's a rapist prowling the city's cold granite streets, leaving a string of tortured women behind. But while DS Logan McRae's girlfriend is out acting as bait, he's dealing with the blood-drenched body of...", 
+            "parent": null, 
+            "title": "Broken Skin", 
+            "date_updated": "2013-03-21T16:54:01.547", 
+            "upc": "9780007193189", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.547", 
+            "product_options": [], 
+            "slug": "broken-skin", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A new Logan McRae thriller from the bestselling author of 'Cold Granite', set to rival Ian Rankin.  It's summertime in the Granite city: the sun is shining, the sky is blue, and people are dying! It starts with Rosie Williams, a prostitute, stripped naked and beaten to death down by the docks -- the heart of Aberdeen's red light district. For DS Logan McRae it's a bad start to another bad day...", 
+            "parent": null, 
+            "title": "Dying Light", 
+            "date_updated": "2013-03-21T16:54:01.531", 
+            "upc": "9780007193165", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.531", 
+            "product_options": [], 
+            "slug": "dying-light", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 78, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A dramatic novel of passion, politics and betrayal from the author of The Other Boleyn Girl. Mary, Queen of Scots, fights to regain her kingdom whilst under the guard of Queen Elizabeth's trusted accomplice, Bess of Hardwick.  Mary is Queen of Scotland but she has been forced to flee her land and take refuge in an England that is ruled by her cousin Elizabeth. But England, precarious in its...", 
+            "parent": null, 
+            "title": "The Other Queen", 
+            "date_updated": "2013-03-21T16:54:01.515", 
+            "upc": "9780007192144", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.515", 
+            "product_options": [], 
+            "slug": "the-other-queen", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "From the bestselling author of 'The Other Boleyn Girl' comes a wonderfully atmospheric evocation of the court of Henry VIII, and the one woman who destroyed two of his queens.  The year is 1539 and the court of Henry VIII is increasingly fearful at the moods of the ageing sick king. With only a baby in the cradle for an heir, Henry has to take another wife and the dangerous prize of the crown...", 
+            "parent": null, 
+            "title": "The Boleyn Inheritance", 
+            "date_updated": "2013-03-21T16:54:01.500", 
+            "upc": "9780007190331", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.500", 
+            "product_options": [], 
+            "slug": "the-boleyn-inheritance", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 76, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Splendid and sumptuous historical novel from this internationally bestselling author, telling of the early life of Katherine of Aragon. We think of her as the barren wife of a notorious king; but behind this legacy lies a fascinating story.  Katherine of Aragon is born Catalina, the Spanish Infanta, to parents who are both rulers and warriors. Aged four, she is betrothed to Arthur, Prince of...", 
+            "parent": null, 
+            "title": "The Constant Princess", 
+            "date_updated": "2013-03-21T16:54:01.485", 
+            "upc": "9780007190317", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.485", 
+            "product_options": [], 
+            "slug": "the-constant-princess", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Longlisted for the 2004 Man Booker Prize  Shortlisted for the 2004 Orange Prize  A haunting tale of an Africa and an adolescence undergoing tremendous changes by a talented young Nigerian writer.  The limits of fifteen-year-old Kambili's world are defined by the high walls of her family estate and the dictates of her repressive and fanatically religious father. Her life is regulated by...", 
+            "parent": null, 
+            "title": "Purple Hibiscus", 
+            "date_updated": "2013-03-21T16:54:01.469", 
+            "upc": "9780007189885", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.469", 
+            "product_options": [], 
+            "slug": "purple-hibiscus", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Hilariously funny Louise Rennison's fabby sixth book of the confessions of crazy but lovable teenager Georgia Nicolson. Guaranteed to have the nation laughing their knickers off!  \"Come on, Jas, you do really want to know my plan, especially as it concerns you, my little hairy pally.\" \"I'm not hairy.\" \"Have it your own way, just don't go near any circuses.\" \"Shut up. Go on then, tell me your...", 
+            "parent": null, 
+            "title": "Then He Ate My Boy Entrancers", 
+            "date_updated": "2013-03-21T16:54:01.452", 
+            "upc": "9780007183210", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.452", 
+            "product_options": [], 
+            "slug": "then-he-ate-my-boy-entrancers", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Brilliantly funny, teenage angst author Louise Rennison's fifth book about the confessions of crazy but lovable Georgia Nicolson. Louise is a star on the HarperCollins teenage list.  11.20 a.m. This is my fabulous life: the Sex God left for Whakatane last month and he has taken my heart with him. 11.25 a.m. Not literally of course otherwise there would be a big hole in my nunga-nungas. 11.28 a...", 
+            "parent": null, 
+            "title": "\"...And That's When It Fell Off In My Hand.\"", 
+            "date_updated": "2013-03-21T16:54:01.436", 
+            "upc": "9780007183203", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.436", 
+            "product_options": [], 
+            "slug": "and-thats-when-it-fell-off-in-my-hand", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The best-selling, unrivalled beginner's guide to identifying the most common species of tree in northern Europe.  This is the perfect pocket guide for anyone who wants to identify those deciduous or evergreen species they may come across on hill or in dale, in the town or in the countryside.  For each tree included in the book, there is a wealth of both textual and visual identification...", 
+            "parent": null, 
+            "title": "Trees", 
+            "date_updated": "2013-03-21T16:54:01.421", 
+            "upc": "9780007183067", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.421", 
+            "product_options": [], 
+            "slug": "trees", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Fans of Food for Free will be delighted at this new format -- ideal for carrying in a rucksack. Over 100 edible plants are featured together with recipes and other interesting culinary information. With details on how to pick, when to pick and regulations on picking.  This new format of a best-selling title provides a portable guide for all those who enjoy what the countryside has to offer...", 
+            "parent": null, 
+            "title": "Food For Free", 
+            "date_updated": "2013-03-21T16:54:01.405", 
+            "upc": "9780007183036", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.405", 
+            "product_options": [], 
+            "slug": "food-for-free", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A heart-warming tale of courage and warmth, set against the backdrop of the second world war, about an abandoned village, a lifelong friendship and one very adventurous cat!  'Classic Morpurgo brilliance' -- Publishing News  \"Something's up. Something big too, very big. At school, in the village, whoever you meet, it's all anyone talks about. It's like a sudden curse has come down on us all. It", 
+            "parent": null, 
+            "title": "The Amazing Story Of Adolphus Tips", 
+            "date_updated": "2013-03-21T16:54:01.390", 
+            "upc": "9780007182466", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.390", 
+            "product_options": [], 
+            "slug": "the-amazing-story-of-adolphus-tips", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Award-winning picture book star Oliver Jeffers explores themes of love and loss in this life-affirming, uplifting tale, due to be featured in a major motion picture.  Once there was a girl whose life was filled with wonder at the world around her! Then one day something happened that made the girl take her heart and put it in a safe place. However, after that it seemed that the world was...", 
+            "parent": null, 
+            "title": "The Heart And The Bottle", 
+            "date_updated": "2013-03-21T16:54:01.374", 
+            "upc": "9780007182343", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.374", 
+            "product_options": [], 
+            "slug": "the-heart-and-the-bottle", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Shining star Oliver Jeffers is back with this star spangled inter-galactic adventure tale in space!  One day a boy finds an aeroplane in his cupboard. Up, up, up and away he flies, high into the sky. Whizzing past clouds, stars and planets until suddenly, he runs out of petrol!  Miles from earth, the boy crashes into the moon and waits. Just as he is beginning to get cold and lonely, a friendly", 
+            "parent": null, 
+            "title": "The Way Back Home", 
+            "date_updated": "2013-03-21T16:54:01.358", 
+            "upc": "9780007182329", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.358", 
+            "product_options": [], 
+            "slug": "the-way-back-home", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "An internationally bestselling fable about a spiritual journey, littered with powerful life lessons that teach us how to abandon consumerism in order to embrace destiny, live life to the full and discover joy.  / This inspiring tale is based on the author's own search for life's true purpose, providing a step-by-step approach to living with greater courage, balance, abundance and joy.  / It...", 
+            "parent": null, 
+            "title": "The Monk Who Sold His Ferrari", 
+            "date_updated": "2013-03-21T16:54:01.343", 
+            "upc": "9780007179732", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.343", 
+            "product_options": [], 
+            "slug": "the-monk-who-sold-his-ferrari", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The only comprehensive, full-colour, pocket-sized guide to significant British and Northern European birds.  This completely new edition of the best pocket-sized bird guide around uses both photography and original artwork to provide a practical and attractive identification guide.  Collins Gem Birds has easy-to-use identification details linked to full-colour illustrations for over 200...", 
+            "parent": null, 
+            "title": "Birds", 
+            "date_updated": "2013-03-21T16:54:01.328", 
+            "upc": "9780007178605", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.328", 
+            "product_options": [], 
+            "slug": "birds", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The only comprehensive, pocket-sized guide to wild flowers of Britain and Ireland. This completely new edition combines both photographs and artwork to give a really practical and attractive identification guide.  Collins Gem Wild Flowers will enable anyone who is in the countryside, whether on a walk along the coast or in the mountains, or a ramble through woodland, fields or wetlands, to...", 
+            "parent": null, 
+            "title": "Wild Flowers", 
+            "date_updated": "2013-03-21T16:54:01.313", 
+            "upc": "9780007178544", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.313", 
+            "product_options": [], 
+            "slug": "wild-flowers", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A completely new edition of this invaluable Gem reference guide to the butterflies of Britain, this book uses both high-quality photographs and precise illustrations to make identification of 240 species easy and fun.  Collins Gem Butterflies is a fascinating introduction to 240 of the most commonly found species of butterflies and moths in the British Isles.  Each entry includes: / Identifying", 
+            "parent": null, 
+            "title": "Butterflies", 
+            "date_updated": "2013-03-21T16:54:01.298", 
+            "upc": "9780007178520", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.298", 
+            "product_options": [], 
+            "slug": "butterflies", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "One of the best books of the year, following great success in hardback, from bestselling and much-loved novelist Tracy Chevalier.  In the early nineteenth century, a windswept beach along the English coast brims with fossils for those with the eye!  From the moment she's struck by lightning as a baby, it is clear Mary Anning is marked for greatness. When she uncovers unknown dinosaur fossils in", 
+            "parent": null, 
+            "title": "Remarkable Creatures", 
+            "date_updated": "2013-03-21T16:54:01.281", 
+            "upc": "9780007178384", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.281", 
+            "product_options": [], 
+            "slug": "remarkable-creatures", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "An invaluable pocket-sized guide to the 100 popular bird species that you are most likely to find in your town, garden or park. It also contains expert practical advice on encouraging birds to your garden.  This completely new title in the Collins Gem series incorporates both practical information on each species and easy-to-use identification guides.  / Each page is devoted to a different...", 
+            "parent": null, 
+            "title": "Garden Birds", 
+            "date_updated": "2013-03-21T16:54:01.265", 
+            "upc": "9780007176144", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.265", 
+            "product_options": [], 
+            "slug": "garden-birds", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The ideal companion to the hugely successful Gem Calorie Counter, this is a handy portable guide to carbohydates in everyday foods. Clearly laid out tables give details of net carbohydrates per portion (slice, biscuit, apple) making it quick and simple to use.  Reducing carbohydrates and following a high protein diet has become a popular and effective way of losing weight and keeping those...", 
+            "parent": null, 
+            "title": "Carb Counter", 
+            "date_updated": "2013-03-21T16:54:01.250", 
+            "upc": "9780007176014", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.250", 
+            "product_options": [], 
+            "slug": "carb-counter", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "\"A bear on Paddington Station?\" said Mrs Brown in amazement. \"Don't be silly -- there can't be.\"  The Browns first met Paddington on a railway station -- Paddington station, in fact. He had travelled all the way from Darkest Peru with only a jar of marmalade, a suitcase and his hat.  The Browns soon find that Paddington is a very unusual bear. Ordinary things -- like having a bath, travelling...", 
+            "parent": null, 
+            "title": "A Bear Called Paddington", 
+            "date_updated": "2013-03-21T16:54:01.235", 
+            "upc": "9780007174164", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.235", 
+            "product_options": [], 
+            "slug": "a-bear-called-paddington", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "New cover, new format reissue of this story about everyone's favourite family cat, Mog.  'Bother that cat!' Mog always seems to be in trouble. She forgets that she has a cat flap and she forgets that she has already eaten her supper. But, one night, Mog's forgetfulness comes in very handy...", 
+            "parent": null, 
+            "title": "Mog The Forgetful Cat", 
+            "date_updated": "2013-03-21T16:54:01.219", 
+            "upc": "9780007171347", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.219", 
+            "product_options": [], 
+            "slug": "mog-the-forgetful-cat", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "New cover, new format reissue of this story about everyone's favourite family cat, Mog.  Bunny is Mog's best thing. But one day Mrs Thomas says she is going to throw Bunny in the dustbin!", 
+            "parent": null, 
+            "title": "Mog And Bunny", 
+            "date_updated": "2013-03-21T16:54:01.203", 
+            "upc": "9780007171309", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.203", 
+            "product_options": [], 
+            "slug": "mog-and-bunny", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The fourth and final volume in the acclaimed Emperor series, in which Conn Iggulden brilliantly weaves history and adventure to recreate the astonishing life of Julius Caesar.  Caesar must fight his toughest battle yet -- with Rome itself.  Julius Caesar, fresh from triumph in Britain and Gaul, is marching on Rome with his legions of hardened veterans. His goal: to unseat Pompey, now dictator...", 
+            "parent": null, 
+            "title": "Emperor", 
+            "date_updated": "2013-03-21T16:54:01.187", 
+            "upc": "9780007164776", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.187", 
+            "product_options": [], 
+            "slug": "emperor", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "From there to here, from here to there, funny things are everywhere. In this hilarious exploration of simple concepts such as colours, numbers and opposites, Dr. Seuss presents a crazy world of boxing Goxes and winking Yinks that drink pink ink!  With his unique combination of hilarious stories, zany pictures and riotous rhymes, Dr. Seuss has been delighting young children and helping them...", 
+            "parent": null, 
+            "title": "One Fish, Two Fish, Red Fish, Blue Fish", 
+            "date_updated": "2013-03-21T16:54:01.171", 
+            "upc": "9780007158560", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.171", 
+            "product_options": [], 
+            "slug": "one-fish-two-fish-red-fish-blue-fish", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "In this classic Seussian tale, the good doctor primes his readers against all the little mishaps and misadventures that can befall even the best of us -- from bang-ups and hang-ups to lurches and slumps -- encouraging us to take life in our stride!  With his unique combination of hilarious stories, zany pictures and riotous rhymes, Dr. Seuss has been delighting young children and helping them...", 
+            "parent": null, 
+            "title": "Oh, The Places You'Ll Go!", 
+            "date_updated": "2013-03-21T16:54:01.156", 
+            "upc": "9780007158522", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.156", 
+            "product_options": [], 
+            "slug": "oh-the-places-youll-go", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "In this hilarious book, the irrepressible Fox in Socks teaches a baffled Mr. Knox some of the slickest, quickest tongue-twisters in town.  With his unique combination of hilarious stories, zany pictures and riotous rhymes, Dr. Seuss has been delighting young children and helping them learn to read for over fifty years. Creator of the wonderfully anarchic Cat in the Hat, and ranked among the UK...", 
+            "parent": null, 
+            "title": "Fox In Socks", 
+            "date_updated": "2013-03-21T16:54:01.140", 
+            "upc": "9780007158478", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.140", 
+            "product_options": [], 
+            "slug": "fox-in-socks", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "When Sam-I-am persits in pestering a grumpy grouch to eat a plate of green eggs and ham, perseverance wins the day, teaching us all that we cannot know what we like until we have tried it!  With his unique combination of hilarious stories, zany pictures and riotous rhymes, Dr. Seuss has been delighting young children and helping them learn to read for over fifty years. Creator of the...", 
+            "parent": null, 
+            "title": "Green Eggs And Ham", 
+            "date_updated": "2013-03-21T16:54:01.125", 
+            "upc": "9780007158461", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.125", 
+            "product_options": [], 
+            "slug": "green-eggs-and-ham", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "To accompany the release of the live action movie of The Cat in the Hat, starring Mike Myers, HarperCollins are proud to present Dr. Seuss's original tale of feline anarchy, pink snow and all-round mayhem!  When the Cat in the Hat comes back, Sally and her brother know it's going to mean trouble. And guess what? They're right!  The Cat in the Hat is one of the most popular characters in...", 
+            "parent": null, 
+            "title": "The Cat In The Hat Comes Back", 
+            "date_updated": "2013-03-21T16:54:01.108", 
+            "upc": "9780007158454", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.108", 
+            "product_options": [], 
+            "slug": "the-cat-in-the-hat-comes-back", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "To accompany the release of the live action movie of The Cat in the Hat, starring Mike Myers, HarperCollins are proud to present Dr. Seuss's original, classic tale of the coolest, hippest cat in history!  When the Cat in the Hat steps in on the mat, Sally and her brother are in for a roller-coaster ride of havoc and mayhem! The Cat can rescue them from a dull rainy day, but it means lots of...", 
+            "parent": null, 
+            "title": "The Cat In The Hat", 
+            "date_updated": "2013-03-21T16:54:01.093", 
+            "upc": "9780007158447", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.093", 
+            "product_options": [], 
+            "slug": "the-cat-in-the-hat", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Shortlisted for the Orange Prize for Fiction.  Hilarious and sinister, 'Beyond Black' is a tale of dark secrets and secret forces in suburban England.  Alison Hart is a medium by trade: dead people talk to her, and she talks back. With her flat-eyed, flint-hearted sidekick, Colette, she tours the dormitory towns of London's orbital road, passing on messages from dead ancestors: 'Granny says she", 
+            "parent": null, 
+            "title": "Beyond Black", 
+            "date_updated": "2013-03-21T16:54:01.078", 
+            "upc": "9780007157761", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.078", 
+            "product_options": [], 
+            "slug": "beyond-black", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Winner of the Roald Dahl Funny Prize 2010!  The misadventures of Tallulah Casey! Hilarious new series from Queen of Teen -- laugh your tights off at the (VERY) amateur dramatic antics of Talullah and her bonkers mates. Boys, snogging and bad acting guaranteed!  Picture the scene: Dother Hall performing arts college somewhere Up North, surrounded by rolling dales, bearded cheesemaking villagers...", 
+            "parent": null, 
+            "title": "Withering Tights", 
+            "date_updated": "2013-03-21T16:54:01.063", 
+            "upc": "9780007156825", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.063", 
+            "product_options": [], 
+            "slug": "withering-tights", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Percy the Park Keeper is in for a surprise in this funny story from highly-regarded, bestselling author-illustrator Nick Butterworth. Includes a fabulous fold-out maze.  It's a beautiful spring morning and a perfect opportunity for Percy to trim the overgrown maze. The animals decide to have some fun hiding on the stone lion in the middle of the maze, to surprise Percy. But the suprise is on...", 
+            "parent": null, 
+            "title": "The Secret Path", 
+            "date_updated": "2013-03-21T16:54:01.046", 
+            "upc": "9780007155187", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.046", 
+            "product_options": [], 
+            "slug": "the-secret-path", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Percy the Park Keeper helps his animal friends in this engaging story from highly-regarded, best-selling author-illustrator Nick Butterworth. Includes a fabulous fold-out poster!  A storm is raging outside and Percy the Park Keeper is having a sleepless night. When he gets up the following morning, Percy finds that the old oak tree has been blown down. It is a disaster for his animal friends...", 
+            "parent": null, 
+            "title": "After The Storm", 
+            "date_updated": "2013-03-21T16:54:01.030", 
+            "upc": "9780007155156", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.030", 
+            "product_options": [], 
+            "slug": "after-the-storm", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Percy the Park Keeper surprises his animal friends in this engaging story from highly-regarded, best-selling author-illustrator Nick Butterworth. Includes a fabulous fold-out page!  Percy the park keeper has been busy in his workshop for days. As his animal friends try to guess what he is making, Percy suddenly emerges sitting on top of a very strange machine. The animals jump aboard for what...", 
+            "parent": null, 
+            "title": "Percy's Bumpy Ride", 
+            "date_updated": "2013-03-21T16:54:01.018", 
+            "upc": "9780007155149", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.018", 
+            "product_options": [], 
+            "slug": "percys-bumpy-ride", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A word of mouth bestseller which has become one of the best loved and most successful books in the parenting field. Steve Biddulp's Raising Boys is to be re-released this month with some startling new research on waht helps - and what harms - boys.  In this expanded and updated edition, Steve Biddulph shares and gives practical and honest advice to parents so they can recognise the differetn...", 
+            "parent": null, 
+            "title": "Raising Boys", 
+            "date_updated": "2013-03-21T16:54:01.003", 
+            "upc": "9780007153695", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:01.003", 
+            "product_options": [], 
+            "slug": "raising-boys", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The best-selling relationship book of all time- over seven million copies sold world wide to date- in a freshly designed new format. Learn how to create understanding and communication between the sexes from this classic and authoritative guide.  First published in 1993, this book has become an international publishing phenomenon and is one of the most famous non-fiction publications of all...", 
+            "parent": null, 
+            "title": "Men Are From Mars, Women Are From Venus", 
+            "date_updated": "2013-03-21T16:54:00.988", 
+            "upc": "9780007152599", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.988", 
+            "product_options": [], 
+            "slug": "men-are-from-mars-women-are-from-venus", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "From the rising star of children's picture books comes the magical tale of friendship and loneliness, a boy and a penguin.  There once was a boy! and one day a penguin arrives on his doorstep. The boy decides the penguin must be lost and tries to return him. But no one seems to be missing a penguin. So the boy decides to take the penguin home himself, and they set out in his row boat on a...", 
+            "parent": null, 
+            "title": "Lost And Found", 
+            "date_updated": "2013-03-21T16:54:00.972", 
+            "upc": "9780007150366", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.972", 
+            "product_options": [], 
+            "slug": "lost-and-found", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "An inspirational story of a boy who loved the stars so much, he decided to catch one of his very own. The beautifully illustrated, original debut picture book from shining talent, Oliver Jeffers.  There once was a boy who loved stars so much that he wished he had one of his very own. Every night he watched the stars in the sky from his bedroom window and dreamed of how he could be their friend...", 
+            "parent": null, 
+            "title": "How To Catch A Star", 
+            "date_updated": "2013-03-21T16:54:00.957", 
+            "upc": "9780007150342", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.957", 
+            "product_options": [], 
+            "slug": "how-to-catch-a-star", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Heroism or cowardice? A stunning story of the First World War from a master storyteller.  Told in the voice of a young soldier, the story follows 24 hours in his life at the front during WW1, and captures his memories as he looks back over his life. Full of stunningly researched detail and engrossing atmosphere, the book leads to a dramatic and moving conclusion.  Both a love story and a deeply", 
+            "parent": null, 
+            "title": "Private Peaceful", 
+            "date_updated": "2013-03-21T16:54:00.941", 
+            "upc": "9780007150076", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.941", 
+            "product_options": [], 
+            "slug": "private-peaceful", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Sumptuous historical novel from bestselling author of THE OTHER BOLEYN GIRL and THE QUEEN'S FOOL  Elizabeth I has acceded to the throne of England, a position she has waited and schemed for all her life. She is surrounded by advisers, all convinced that a young woman cannot form political judgements. Elizabeth feels that she can rely on just one man: her oldest friend, Robert Dudley. It is soon", 
+            "parent": null, 
+            "title": "The Virgin's Lover", 
+            "date_updated": "2013-03-21T16:54:00.926", 
+            "upc": "9780007147311", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.926", 
+            "product_options": [], 
+            "slug": "the-virgins-lover", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A stunning novel set in the Tudor court, as the rivalry between Queen Mary and her half-sister Elizabeth is played out against a background of betrayal, conflict and passion.  The savage rivalry of the daughters of Henry VIII, Mary Tudor and Elizabeth, mirrors that of their mothers, Katherine of Aragon and Anne Boleyn. Each will fight by any available means for the crown and future of the...", 
+            "parent": null, 
+            "title": "The Queen's Fool", 
+            "date_updated": "2013-03-21T16:54:00.911", 
+            "upc": "9780007147298", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.911", 
+            "product_options": [], 
+            "slug": "the-queens-fool", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The third volume in the acclaimed Emperor series, in which Conn Iggulden brilliantly interweaves history and adventure to recreate the astonishing life of Julius Caesar -- an epic tale of ambition and rivalry, bravery and betrayal, from an outstanding new voice in historical fiction.  THE GATES OF ROME, THE DEATH OF KINGS and now THE FIELD OF SWORDS tell the powerful, dramatic story of the...", 
+            "parent": null, 
+            "title": "Emperor", 
+            "date_updated": "2013-03-21T16:54:00.896", 
+            "upc": "9780007136940", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.896", 
+            "product_options": [], 
+            "slug": "emperor", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The second volume in the acclaimed Emperor series, in which Conn Iggulden brilliantly interweaves history and adventure to recreate the astonishing life of Julius Caesar -- an epic tale of ambition and rivalry, bravery and betrayal, from an outstanding new voice in historical fiction.  The young Caesar must overcome enemies on land and at sea to become a battle-hardened leader -- in the...", 
+            "parent": null, 
+            "title": "Emperor", 
+            "date_updated": "2013-03-21T16:54:00.881", 
+            "upc": "9780007136926", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.881", 
+            "product_options": [], 
+            "slug": "emperor", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The early life of Julius Caesar is recreated in a novel that brilliantly interweaves history and adventure. An epic tale of ambition and rivalry, bravery and betrayal, from an outstanding new voice in historical fiction -- already a top-ten bestseller in hardback.  From the spectacle of gladiatorial combat to the intrigue of the Senate, from the foreign wars that created an empire to the...", 
+            "parent": null, 
+            "title": "Emperor", 
+            "date_updated": "2013-03-21T16:54:00.864", 
+            "upc": "9780007136902", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.864", 
+            "product_options": [], 
+            "slug": "emperor", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Agatha Christie's world-famous mystery thriller, reissued with a striking new cover designed to appeal to the latest generation of Agatha Christie fans and book lovers.  Ten strangers, apparently with little in common, are lured to an island mansion off the coast of Devon by the mysterious U.N.Owen. Over dinner, a record begins to play, and the voice of an unseen host accuses each person of...", 
+            "parent": null, 
+            "title": "And Then There Were None", 
+            "date_updated": "2013-03-21T16:54:00.849", 
+            "upc": "9780007136834", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.848", 
+            "product_options": [], 
+            "slug": "and-then-there-were-none", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The story of one of the most brutal battles in modern history -- fought at a major turning point of the Second World War.  Kohima. In this remote Indian village near the border with Burma, a tiny force of British and Indian troops faced the might of the Imperial Japanese Army. Outnumbered ten to one, the defenders fought the Japanese hand to hand in a battle that was amongst the most savage in...", 
+            "parent": null, 
+            "title": "Road Of Bones", 
+            "date_updated": "2013-03-21T16:54:00.833", 
+            "upc": "9780007132416", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.833", 
+            "product_options": [], 
+            "slug": "road-of-bones", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Michael Morpurgo's inspiring new story of Robbie, a boy in a coma -- victim of a car accident. Locked inside his own head, able to hear but not move or speak, Robbie tries to keep himself from slipping ever deeper into unconsciousness.  Robbie, football fan and animal lover, runs after his dog Lucky one day when he chases a cat and is hit by a car. Unconscious, Robbie lies in hospital, unable...", 
+            "parent": null, 
+            "title": "Cool!", 
+            "date_updated": "2013-03-21T16:54:00.818", 
+            "upc": "9780007131044", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.818", 
+            "product_options": [], 
+            "slug": "cool", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Split into two books for the paperback, the third volume in George R.R. Martin's superb and highly acclaimed epic fantasy A Song of Ice and Fire continues the richest, most exotic and mesmerising saga since The Lord of the Rings.  The Seven Kingdoms are divided by revolt and blood feud, and winter approaches like an angry beast. Beyond the Northern borders, wildlings leave their villages to...", 
+            "parent": null, 
+            "title": "A Storm Of Swords", 
+            "date_updated": "2013-03-21T16:54:00.806", 
+            "upc": "9780007119554", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.806", 
+            "product_options": [], 
+            "slug": "a-storm-of-swords", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "How management can effectively rid themselves of 'monkeys' -- other people's responsibilities that cling to them and prevent them managing efficiently.  This book explains in simple-minded if abstract terms how to achieve a balance between supervision and delegation for reduced tension and improved productivity in the work-place. \"There is a high correlation between self-reliance and morale...", 
+            "parent": null, 
+            "title": "The One Minute Manager Meets The Monkey", 
+            "date_updated": "2013-03-21T16:54:00.790", 
+            "upc": "9780007116980", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.790", 
+            "product_options": [], 
+            "slug": "the-one-minute-manager-meets-the-monkey", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Darren Shan, the vampire's assistant is forced to march to Vampire Mountain where he will be judged by the vampire princes.  THE SAGA OF DARREN SHAN BOOK 4 Darren Shan and Mr Crepsley make a long and dangerous trek to the vampire's stronghold in the mountains. The trek is a test of skill and endurance -- one which sees Darren's vampire nature develop, and a new understanding of the mysterious...", 
+            "parent": null, 
+            "title": "Vampire Mountain", 
+            "date_updated": "2013-03-21T16:54:00.775", 
+            "upc": "9780007114412", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.775", 
+            "product_options": [], 
+            "slug": "vampire-mountain", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "TRIALS OF DEATH -- the fifth title in the compelling and chilling saga of Darren Shan -- but the second part in a new TRILOGY, following Darren's initiation into the vampire clan.  THE SAGA OF DARREN SHAN BOOK 5 Compelled by his loyalty to Mr Crepsley, Darren Shan, the vampire's assistant, agrees to prove his worthiness to the vampire clan by undertaking a series of trials. Each Trial is set by", 
+            "parent": null, 
+            "title": "The Trials Of Death", 
+            "date_updated": "2013-03-21T16:54:00.760", 
+            "upc": "9780007114405", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.760", 
+            "product_options": [], 
+            "slug": "the-trials-of-death", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The original, best-selling blockbuster which has transformed businesses world-wide.  The blockbuster number 1 intenational bestselling phenomenon is back!not that it ever really went away. An easily-read story which quickly demonstrates three very practical management techniques, it also includes information on several studies in medicine and in the behavioral sciences, which help readers...", 
+            "parent": null, 
+            "title": "The One Minute Manager", 
+            "date_updated": "2013-03-21T16:54:00.745", 
+            "upc": "9780007107926", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.745", 
+            "product_options": [], 
+            "slug": "the-one-minute-manager", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Billy was a champion soccer star, playing for Chelsea in the 1930s. But that was before war broke out!  Billy the Kid is told through the voice of an 80 year old man, who looks back on his life as Chelsea's champion striker until the outbreak of war in 1939 and on through his subsequent life. Billy joins Chelsea as a football apprentice, rises through the reserves to become a real champion. His", 
+            "parent": null, 
+            "title": "Billy The Kid", 
+            "date_updated": "2013-03-21T16:54:00.728", 
+            "upc": "9780007105472", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.728", 
+            "product_options": [], 
+            "slug": "billy-the-kid", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "New cover reissue of this funny picture book about Paddington, the beloved, classic bear from darkest Peru.  When Mr Gruber takes Paddington to Buckingham Palace to watch the Changing of the Guard, there are so many people in the way he can't see a thing. But a mysterious someone 'on high' comes to his rescue and Paddington has a very good idea who it might be!  Here comes Paddington again and...", 
+            "parent": null, 
+            "title": "Paddington At The Palace", 
+            "date_updated": "2013-03-21T16:54:00.716", 
+            "upc": "9780007104406", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.716", 
+            "product_options": [], 
+            "slug": "paddington-at-the-palace", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Adapting one minute manager techniques to enable successful leadership to happen. Using different ways to motivate different kinds of people.  Leadership and The One Minute Manager goes straight to the heart of management as it describes the effective, adaptive styles of Situational Leadership. In clear and simple terms it teaches how to become a flexible and successful leader, fitting your...", 
+            "parent": null, 
+            "title": "Leadership And The One Minute Manager", 
+            "date_updated": "2013-03-21T16:54:00.701", 
+            "upc": "9780007103416", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.701", 
+            "product_options": [], 
+            "slug": "leadership-and-the-one-minute-manager", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "An Award or Presentation Bible in the King James Version: ideal as a gift or to keep  The full text of the Popular size King James or Authorized Version Bible, in a straightforward black imitation leather hardback binding.", 
+            "parent": null, 
+            "title": "The Holy Bible", 
+            "date_updated": "2013-03-21T16:54:00.688", 
+            "upc": "9780007103072", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.688", 
+            "product_options": [], 
+            "slug": "the-holy-bible", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Darren Shan and Evra Von follow a trail of corpses and confront a foul creature of the night. A new enemy or Mr Crepsley?  THE SAGA OF DARREN SHAN BOOK 3 When Mr Crepsley is called upon by the Vampire Generals, Darren and the snake-boy, Evra Von, leave the Cirque Du Freak and travel with him to the city. Whilst there, Darren meets Debbie and his life as a Vampire's Assistant fades into the...", 
+            "parent": null, 
+            "title": "Tunnels Of Blood", 
+            "date_updated": "2013-03-21T16:54:00.673", 
+            "upc": "9780006755142", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.673", 
+            "product_options": [], 
+            "slug": "tunnels-of-blood", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Darren Shan has been made a half-vampire by Mr Crepsley, but the Cirque Du Freak holds more unpleasant surprises for the vampire's assistant.  THE SAGA OF DARREN SHAN BOOK 2 Darren joins the vampire, Mr Crepsley, as his assistant and they return to the Cirque Du Freak. There, Darren makes friends with the snake-boy, Evra Von (who knows what Darren is) and a local boy, Sam, and RV, an eco...", 
+            "parent": null, 
+            "title": "The Vampire's Assistant", 
+            "date_updated": "2013-03-21T16:54:00.658", 
+            "upc": "9780006755135", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.658", 
+            "product_options": [], 
+            "slug": "the-vampires-assistant", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The chilling Saga of Darren Shan, the ordinary schoolboy plunged into the vampire world.  THE SAGA OF DARREN SHAN BOOK 1 Darren goes to a banned freak show with his best mate Steve. It's the wonderfully gothic Cirque Du Freak where weird, frightening half human/half animals appear who interact terrifyingly with the audience. Darren -- a spider freak -- 'falls in love' with Madam Octa -- an...", 
+            "parent": null, 
+            "title": "Cirque Du Freak", 
+            "date_updated": "2013-03-21T16:54:00.641", 
+            "upc": "9780006754169", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.641", 
+            "product_options": [], 
+            "slug": "cirque-du-freak", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Set on a farm in rural Devon, Farm Boy is a collection of Grandpa's reminiscences and stories touchingly told to his grandson. Superbly told by a master storyteller and stunningly illustrated by Michael Foreman -- an exquisite book.  Joey was the last working horse on the farm, and the apple of Grandpa's eye. In War Horse, published twelve years ago, Joey was sent away from the farm to be a...", 
+            "parent": null, 
+            "title": "Farm Boy", 
+            "date_updated": "2013-03-21T16:54:00.626", 
+            "upc": "9780006754121", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.626", 
+            "product_options": [], 
+            "slug": "farm-boy", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Probably the most famous children's book of modern times -- regularly topping polls for 'favourite book'.  The Hobbit is the unforgettable story of Bilbo, a peace-loving hobbit, who embarks on a strange and magical adventure.  A timeless classic.", 
+            "parent": null, 
+            "title": "The Hobbit", 
+            "date_updated": "2013-03-21T16:54:00.611", 
+            "upc": "9780006754022", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.611", 
+            "product_options": [], 
+            "slug": "the-hobbit", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A moving story of a brother, a sister and a swallow, and how all are in some way victims of the horrors of landmines.  Olly's brother Matt wants to go and work with children who have been made orphans, through war, in Africa. He wants to be a clown and make them laugh. His mother and sister want him to stay in England and go to university.  Hero, a swallow, has a journey to make too. He must...", 
+            "parent": null, 
+            "title": "Dear Olly", 
+            "date_updated": "2013-03-21T16:54:00.595", 
+            "upc": "9780006753339", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.595", 
+            "product_options": [], 
+            "slug": "dear-olly", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "ILLUSTRATED BY CHRISTIAN BIRMINGHAM. A lyrical and moving tale of a young boy growing up in Africa, and his lifelong friendship with a white lion.  \"All my life I'll think you you, I promise I will. I won't ever forget you.\"  Bertie rescues an orphaned white lion cub from the African veld. They are inseparable until Bertie is sent to boarding school far away in England and the lion is sold to a", 
+            "parent": null, 
+            "title": "The Butterfly Lion", 
+            "date_updated": "2013-03-21T16:54:00.577", 
+            "upc": "9780006751038", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.577", 
+            "product_options": [], 
+            "slug": "the-butterfly-lion", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A gentle and deeply moving story of a young girl and her bear, told with great charm by a master storyteller.  High in the mountains, in a tiny village, an abandoned bear cub is adopted by a lonely orphan child. Soon they are inseparable, beloved by the whole village -- safe, until the arrival of a glamorous film crew who need a dancing bear!", 
+            "parent": null, 
+            "title": "The Dancing Bear", 
+            "date_updated": "2013-03-21T16:54:00.562", 
+            "upc": "9780006745112", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.562", 
+            "product_options": [], 
+            "slug": "the-dancing-bear", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The tale of a dependable, reliable and helpful badger who realises that his old age will soon lead to death. His friends learn to come to terms with his death in an enchanting tale. With full colour illustrations throughout.", 
+            "parent": null, 
+            "title": "Badger's Parting Gifts", 
+            "date_updated": "2013-03-21T16:54:00.549", 
+            "upc": "9780006643173", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.549", 
+            "product_options": [], 
+            "slug": "badgers-parting-gifts", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A charming reissue of a classic Judith Kerr backlist treasure with a beautifully refreshed new cover look. When Willy is told he's not allowed to bring his pets to his sister's wedding, despite his promise, they turn up anyway! with disastrous results!  Once there was a boy called Willy. He had lots of pets and a grown-up sister. Willy's sister was so grown-up that she was getting married, and...", 
+            "parent": null, 
+            "title": "When Willy Went To The Wedding", 
+            "date_updated": "2013-03-21T16:54:00.537", 
+            "upc": "9780006613404", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.537", 
+            "product_options": [], 
+            "slug": "when-willy-went-to-the-wedding", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The Asian literary phenomenon of the 90s.  More magical than Mistry, more of a rollicking good read than Rushdie, more nerve-tinglingly imagined than Naipaul, here, perhaps, is the greatest Indian novel by a woman. Arundhati Roy has written an astonishingly rich, fertile novel, teeming with life, colour, heart-stopping language, wry comedy and a hint of magical realism.  Set against a...", 
+            "parent": null, 
+            "title": "The God Of Small Things", 
+            "date_updated": "2013-03-21T16:54:00.521", 
+            "upc": "9780006550686", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.521", 
+            "product_options": [], 
+            "slug": "the-god-of-small-things", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The hauntingly prophetic classic novel set in a not-too-distant future where books are burned by a special task force of firemen.  Guy Montag is a fireman. His job is to burn books, which are forbidden, being the source of all discord and unhappiness. Even so, Montag is unhappy; there is discord in his marriage. Are books hidden in his house? The Mechanical Hound of the Fire Department, armed...", 
+            "parent": null, 
+            "title": "Fahrenheit 451", 
+            "date_updated": "2013-03-21T16:54:00.506", 
+            "upc": "9780006546061", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.506", 
+            "product_options": [], 
+            "slug": "fahrenheit-451", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Fabulous historical novel set in the court of King Henry VIII. Mary Boleyn attracts the attention of the young king and becomes his mistress; when he tires of her, she sets out to school her sister, Anne, as a replacement.  Politics and passion are inextricably bound together in this compelling drama. The Boleyn family is keen to rise through the ranks of society, and what better way to attract", 
+            "parent": null, 
+            "title": "The Other Boleyn Girl", 
+            "date_updated": "2013-03-21T16:54:00.484", 
+            "upc": "9780006514008", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.484", 
+            "product_options": [], 
+            "slug": "the-other-boleyn-girl", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The cult classic that can still change your life!  Let the dice decide!  This is the philosophy that changes the life of bored psychiatrist Luke Rhinehart -- and in some ways changes the world as well.  Because once you hand over your life to the dice, anything can happen.  Entertaining, humorous, scary, shocking, subversive, The Dice Man is one of the cult bestsellers of our time.", 
+            "parent": null, 
+            "title": "The Dice Man", 
+            "date_updated": "2013-03-21T16:54:00.469", 
+            "upc": "9780006513902", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.469", 
+            "product_options": [], 
+            "slug": "the-dice-man", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The first instalment of the Flashman Papers sees the fag-roasting rotter from Tom Brown's Schooldays commence his military career as a reluctant secret agent in Afghanistan.  Expelled from Rugby for drunkenness, and none too welcome at home after seducing his father's mistress, the young Flashman embarks on a military career with Lord Cardigan's Hussars.  En route to Afghanistan, our hero hones", 
+            "parent": null, 
+            "title": "The Flashman", 
+            "date_updated": "2013-03-21T16:54:00.453", 
+            "upc": "9780006511250", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.453", 
+            "product_options": [], 
+            "slug": "the-flashman", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Jonathan Livingston Seagull, the most celebrated inspirational fable of our time, tells the story of a bird determined to be more than ordinary. This bestselling modern classic, reissued with a beautiful new cover design, is a story for people who want to follow their dreams and make their own rules and has inspired people for decades.  'Most gulls don't bother to learn more than the simplest...", 
+            "parent": null, 
+            "title": "Jonathan Livingston Seagull", 
+            "date_updated": "2013-03-21T16:54:00.437", 
+            "upc": "9780006490340", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.437", 
+            "product_options": [], 
+            "slug": "jonathan-livingston-seagull", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "The fourth volume in the hugely popular and highly acclaimed epic fantasy. There is passion here, and misery and charm, grandeur and squalor, tragedy, nobility and courage.  Bloodthirsty, treacherous and cunning, the Lannisters are in power on the Iron Throne in the name of the boy-king Tommen. But fear and deceit are in the air: their enemies are poised to strike.  The Martells of Dorne seek...", 
+            "parent": null, 
+            "title": "A Feast For Crows", 
+            "date_updated": "2013-03-21T16:54:00.425", 
+            "upc": "9780006486121", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.425", 
+            "product_options": [], 
+            "slug": "a-feast-for-crows", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A glorious classic fantasy combining the magic of Ursula Le Guin's The Wizard of Earthsea with the epic Mastery of Tolkien's The Lord of the Rings. Now reissued in gorgeous new livery.  Fitz is a royal bastard, cast out into the world with only his magical link with animals for solace and companionship. But When Fitz is adopted into the royal household, he must give up his old ways and learn a...", 
+            "parent": null, 
+            "title": "Assassin's Apprentice", 
+            "date_updated": "2013-03-21T16:54:00.409", 
+            "upc": "9780006480099", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.409", 
+            "product_options": [], 
+            "slug": "assassins-apprentice", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "Split into two books for the paperback, the third volume in George R.R. Martin's superb and highly acclaimed epic fantasy A Song of Ice and Fire continues the richest, most exotic and mesmerising saga since The Lord of the Rings.  The Seven Kingdoms are divided by revolt and blood feud, and winter approaches like an angry beast. Beyond the Northern borders, wildlings leave their villages to...", 
+            "parent": null, 
+            "title": "A Storm Of Swords", 
+            "date_updated": "2013-03-21T16:54:00.397", 
+            "upc": "9780006479901", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.397", 
+            "product_options": [], 
+            "slug": "a-storm-of-swords", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "George R. R. Martin's superb fantasy epic continues in consummate style as bloodshed and alchemy lay waste the Seven Kingdoms in the second volume of A Song of Ice and Fire.  The Iron Throne once united the Sunset Lands, but King Robert is dead, his widow is a traitor to his memory, and his surviving brothers are set on a path of war amongst themselves. At King's Landing, the head of Lord...", 
+            "parent": null, 
+            "title": "A Clash Of Kings", 
+            "date_updated": "2013-03-21T16:54:00.372", 
+            "upc": "9780006479895", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.372", 
+            "product_options": [], 
+            "slug": "a-clash-of-kings", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "First volume of a brilliant new fantasy trilogy: the most powerful, original and absorbing new epic since Stephen Donaldson's Chronicles of Thomas Covenant.  The first volume of George R R Martin's glorious high fantasy tells the tragic story of treachery, greed and war that threatens the unity of the Seven Kingdoms south of the Wall. Martin unfolds with astonishing skill a tale of truly epic...", 
+            "parent": null, 
+            "title": "A Game Of Thrones", 
+            "date_updated": "2013-03-21T16:54:00.328", 
+            "upc": "9780006479888", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.328", 
+            "product_options": [], 
+            "slug": "a-game-of-thrones", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "This hugely popular international bestseller is being repackaged and rebranded as the leading title in the C.S. Lewis Signature Classics range.  One of the most popular and beloved introductions to the concept of faith ever written, Mere Christianity has sold millions of copies worldwide. The timeless questions of spirituality which Lewis raises will have resonance with a new generation of...", 
+            "parent": null, 
+            "title": "Mere Christianity", 
+            "date_updated": "2013-03-21T16:54:00.281", 
+            "upc": "9780006280545", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.281", 
+            "product_options": [], 
+            "slug": "mere-christianity", 
+            "product_class": 1
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "catalogue.product", 
+        "fields": {
+            "status": null, 
+            "related_products": [], 
+            "description": "A much-needed new study on plant galls -- growths on plants formed of plant tissue that are caused by other organisms.  Most naturalists have come across oak apples, robin's pincushions, marble galls and witches' brooms, a few of the more familiar examples of the strange growths that are plant galls. They are beautiful, often bizarre and colourful, and amazingly diverse in structure and in the...", 
+            "parent": null, 
+            "title": "Plant Galls", 
+            "date_updated": "2013-03-21T16:54:00.099", 
+            "upc": "9780002201438", 
+            "score": 0.0, 
+            "is_discountable": true, 
+            "date_created": "2013-03-21T16:54:00.099", 
+            "product_options": [], 
+            "slug": "plant-galls", 
+            "product_class": 1
+        }
+    }
+]
