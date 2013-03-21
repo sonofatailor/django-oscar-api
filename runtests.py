@@ -29,6 +29,7 @@ if not settings.configured:
                 'django.contrib.sessions',
                 'django.contrib.sites',
                 'oscar_api',
+                'rest_framework',
                 'south',
                 ] + get_core_apps(),
             DEBUG=False,

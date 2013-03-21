@@ -184,6 +184,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     # Package
     'south',
+    'rest_framework',
 ]
 from oscar import get_core_apps
 INSTALLED_APPS += get_core_apps()
