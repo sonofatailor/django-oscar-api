@@ -59,7 +59,12 @@ class BasketList(generics.ListCreateAPIView):
     def get_queryset(self):
         return itertools.imap(
             functools.partial(assign_basket_strategy, request=self.request),
+<<<<<<< HEAD
             qs)
+=======
+            self.queryset.all())
+
+>>>>>>> merged_restframework_v3
 
 
 class BasketDetail(PutIsPatchMixin, generics.RetrieveUpdateDestroyAPIView):
@@ -160,13 +165,16 @@ class OptionList(generics.ListAPIView):
 class OptionDetail(generics.RetrieveAPIView):
     model = Option
     serializer_class = serializers.OptionSerializer
+    queryset = Option.objects
 
 
 class PartnerList(generics.ListAPIView):
     model = Partner
     serializer_class = serializers.PartnerSerializer
+    queryset = Partner.objects
 
 
 class PartnerDetail(generics.RetrieveAPIView):
     model = Partner
     serializer_class = serializers.PartnerSerializer
+    queryset = Partner.objects

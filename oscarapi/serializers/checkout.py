@@ -138,12 +138,13 @@ class OrderSerializer(OscarHyperlinkedModelSerializer):
     as the basket in the checkout process.
     """
     owner = serializers.HyperlinkedRelatedField(view_name='user-detail',
-                                                source='user')
+                                                source='user', read_only=True)
     lines = serializers.HyperlinkedIdentityField(view_name='order-lines-list')
     shipping_address = InlineShippingAddressSerializer(
         many=False, required=False)
     billing_address = InlineBillingAddressSerializer(
         many=False, required=False)
+<<<<<<< HEAD
 
     payment_url = serializers.SerializerMethodField('get_payment_url')
     offer_discounts = serializers.SerializerMethodField('get_offer_discounts')
@@ -156,6 +157,9 @@ class OrderSerializer(OscarHyperlinkedModelSerializer):
     def get_voucher_discounts(self, obj):
         qs = obj.basket_discounts.filter(voucher_id__isnull=False)
         return OrderVoucherOfferSerializer(qs, many=True).data
+=======
+    payment_url = serializers.SerializerMethodField()
+>>>>>>> merged_restframework_v3
 
     def get_payment_url(self, obj):
         try:
@@ -170,9 +174,14 @@ class OrderSerializer(OscarHyperlinkedModelSerializer):
     class Meta:
         model = Order
         fields = overridable('OSCARAPI_ORDER_FIELD', default=(
+<<<<<<< HEAD
             'number',
             'basket', 'url',
             'owner', 'billing_address', 'currency', 'total_incl_tax',
+=======
+            'number', 'basket', 'url',
+            'user', 'billing_address', 'currency', 'total_incl_tax',
+>>>>>>> merged_restframework_v3
             'total_excl_tax', 'shipping_incl_tax', 'shipping_excl_tax',
             'shipping_address', 'shipping_method', 'shipping_code', 'status',
             'guest_email', 'date_placed', 'payment_url', 'offer_discounts',

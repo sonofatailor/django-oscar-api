@@ -17,18 +17,23 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = overridable('OSCARAPI_USER_FIELDS', (
-            'username', 'id', 'date_joined',))
+            'email', 'id', 'date_joined',))
 
 
 class LoginSerializer(serializers.Serializer):
 
+<<<<<<< HEAD
     username = serializers.CharField(
         max_length=field_length('username'), required=True)
+=======
+    email = serializers.CharField(
+        max_length=field_length('email'), required=True)
+>>>>>>> merged_restframework_v3
     password = serializers.CharField(
         max_length=field_length('password'), required=True)
 
     def validate(self, attrs):
-        user = authenticate(username=attrs['username'],
+        user = authenticate(username=attrs['email'],
                             password=attrs['password'])
         if user is None:
             raise serializers.ValidationError('invalid login')
