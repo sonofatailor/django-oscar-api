@@ -42,8 +42,8 @@ class ProductLinkSerializer(OscarHyperlinkedModelSerializer):
 
 
 class ProductAttributeValueSerializer(OscarModelSerializer):
-    name = serializers.StringRelatedField(source="attribute")
-    value = serializers.StringRelatedField()
+    name = serializers.StringRelatedField(source="attribute", read_only=True)
+    value = serializers.StringRelatedField(read_only=True)
 
     class Meta:
         model = ProductAttributeValue
