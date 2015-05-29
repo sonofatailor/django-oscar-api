@@ -19,6 +19,7 @@ Voucher = get_model('voucher', 'Voucher')
 
 
 class VoucherSerializer(OscarModelSerializer):
+
     class Meta:
         model = Voucher
         fields = overridable('OSCARAPI_VOUCHER_FIELDS', default=[
@@ -79,6 +80,7 @@ class LineAttributeSerializer(OscarHyperlinkedModelSerializer):
 
 
 class BasketLineSerializer(OscarHyperlinkedModelSerializer):
+
     """
     This serializer computes the prices of this line by using the basket
     strategy.
@@ -96,7 +98,8 @@ class BasketLineSerializer(OscarHyperlinkedModelSerializer):
         decimal_places=2, max_digits=12,
         source='line_price_excl_tax')
 
-    warning = serializers.CharField(read_only=True, required=False, source='get_warning')
+    warning = serializers.CharField(
+        read_only=True, required=False, source='get_warning')
 
     class Meta:
         model = Line
@@ -107,7 +110,9 @@ class BasketLineSerializer(OscarHyperlinkedModelSerializer):
             'warning', 'basket', 'stockrecord', 'date_created'
         ])
 
+
 class LineSerializer(serializers.HyperlinkedModelSerializer):
+
     """
     This serializer just shows fields stored in the database for this line.
     """
@@ -151,3 +156,13 @@ class VoucherAddSerializer(serializers.Serializer):
 
     def create(self, validated_data):
         return Voucher.objects.create(**validated_data)
+
+    def restore_object(self, attrs, instance=None):
+        if not instance:
+            code = attrs.get('vouchercode')
+            try:
+                instance = Voucher.objects.get(code=code)
+            except Voucher.DoesNotExist:
+                logger.error('Voucher not found %s' % code)
+
+        return instance

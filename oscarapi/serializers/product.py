@@ -74,7 +74,8 @@ class RecommmendedProductSerializer(OscarModelSerializer):
 
     class Meta:
         model = Product
-        fields = ('url',)
+        fields = overridable('OSCARAPI_RECOMMENDED_PRODUCT_FIELDS',
+                                 default=('url',))
 
 
 class ProductSerializer(OscarModelSerializer):
