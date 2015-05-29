@@ -19,6 +19,7 @@ Partner = get_model('partner', 'Partner')
 
 
 class PartnerSerializer(OscarModelSerializer):
+
     class Meta:
         model = Partner
 
@@ -33,12 +34,13 @@ class OptionSerializer(OscarHyperlinkedModelSerializer):
 
 
 class ProductLinkSerializer(OscarHyperlinkedModelSerializer):
+
     class Meta:
         model = Product
         fields = overridable(
             'OSCARAPI_PRODUCT_FIELDS', default=(
                 'url', 'id', 'title')
-            )
+        )
 
 
 class ProductAttributeValueSerializer(OscarModelSerializer):
@@ -59,6 +61,7 @@ class ProductAttributeSerializer(OscarModelSerializer):
 
 
 class ProductImageSerializer(OscarModelSerializer):
+
     class Meta:
         model = ProductImage
 
@@ -75,7 +78,7 @@ class RecommmendedProductSerializer(OscarModelSerializer):
     class Meta:
         model = Product
         fields = overridable('OSCARAPI_RECOMMENDED_PRODUCT_FIELDS',
-                                 default=('url',))
+                             default=('url',))
 
 
 class ProductSerializer(OscarModelSerializer):
@@ -114,6 +117,7 @@ class OptionValueSerializer(serializers.Serializer):
 
 
 class AddProductSerializer(serializers.Serializer):
+
     """
     Serializes and validates an add to basket request.
     """

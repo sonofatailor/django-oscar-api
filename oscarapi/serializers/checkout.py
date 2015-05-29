@@ -45,11 +45,13 @@ class PriceSerializer(serializers.Serializer):
 
 
 class CountrySerializer(OscarHyperlinkedModelSerializer):
+
     class Meta:
         model = Country
 
 
 class ShippingAddressSerializer(OscarHyperlinkedModelSerializer):
+
     class Meta:
         model = ShippingAddress
 
@@ -63,6 +65,7 @@ class InlineShippingAddressSerializer(OscarModelSerializer):
 
 
 class BillingAddressSerializer(OscarHyperlinkedModelSerializer):
+
     class Meta:
         model = BillingAddress
 
@@ -94,6 +97,7 @@ class OrderLineAttributeSerializer(OscarHyperlinkedModelSerializer):
 
 
 class OrderLineSerializer(OscarHyperlinkedModelSerializer):
+
     "This serializer renames some fields so they match up with the basket"
 
     url = serializers.HyperlinkedIdentityField(view_name='order-lines-detail')
@@ -132,6 +136,7 @@ class OrderVoucherOfferSerializer(OrderOfferDiscountSerializer):
 
 
 class OrderSerializer(OscarHyperlinkedModelSerializer):
+
     """
     The order serializer tries to have the same kind of structure as the
     basket. That way the same kind of logic can be used to display the order
