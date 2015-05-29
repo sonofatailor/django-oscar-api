@@ -22,8 +22,13 @@ class UserSerializer(serializers.ModelSerializer):
 
 class LoginSerializer(serializers.Serializer):
 
+<<<<<<< HEAD
+    username = serializers.CharField(
+        max_length=field_length('username'), required=True)
+=======
     email = serializers.CharField(
         max_length=field_length('email'), required=True)
+>>>>>>> merged_restframework_v3
     password = serializers.CharField(
         max_length=field_length('password'), required=True)
 
