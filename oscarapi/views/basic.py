@@ -59,12 +59,7 @@ class BasketList(generics.ListCreateAPIView):
     def get_queryset(self):
         return itertools.imap(
             functools.partial(assign_basket_strategy, request=self.request),
-<<<<<<< HEAD
-            qs)
-=======
             self.queryset.all())
-
->>>>>>> merged_restframework_v3
 
 
 class BasketDetail(PutIsPatchMixin, generics.RetrieveUpdateDestroyAPIView):

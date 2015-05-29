@@ -42,13 +42,8 @@ class ProductLinkSerializer(OscarHyperlinkedModelSerializer):
 
 
 class ProductAttributeValueSerializer(OscarModelSerializer):
-<<<<<<< HEAD
-    name = serializers.StringRelatedField(source="attribute", read_only=True)
-    value = serializers.StringRelatedField(read_only=True)
-=======
     name = serializers.StringRelatedField(source="attribute")
     value = serializers.StringRelatedField()
->>>>>>> merged_restframework_v3
 
     class Meta:
         model = ProductAttributeValue
@@ -76,6 +71,7 @@ class AvailabilitySerializer(serializers.Serializer):
 
 class RecommmendedProductSerializer(OscarModelSerializer):
     url = serializers.HyperlinkedIdentityField(view_name='product-detail')
+
     class Meta:
         model = Product
         fields = ('url',)
